@@ -1,6 +1,6 @@
-.hello {
-    color: red;
-}
 @tailwind base;
-@tailwind components; 
+@tailwind components;
 @tailwind utilities;
+button {
+    @apply bg-indigo-500 hover:bg-indigo-700 px-2 py-1 text-white rounded-md;
+}
